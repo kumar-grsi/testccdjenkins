@@ -1,0 +1,20 @@
+<bot schemaname="cr213_ccd">
+  <authenticationmode>1</authenticationmode>
+  <authenticationtrigger>0</authenticationtrigger>
+  <iscustomizable>0</iscustomizable>
+  <language>1033</language>
+  <name>ccd</name>
+  <runtimeprovider>0</runtimeprovider>
+  <synchronizationstatus>{
+  "contentVersion": 2,
+  "lastFinishedPublishOperation": {
+    "userId": "727d92c1-336c-4a43-8bc5-4dd330a5a693",
+    "operationStart": "2022-12-15T22:25:46.9470645Z",
+    "operationEnd": "2022-12-15T22:25:53.8969855Z",
+    "status": "Succeeded"
+  },
+  "lastPublishedOnUtc": "2022-12-15T22:25:52Z"
+}</synchronizationstatus>
+  <template>default-2.0.0</template>
+  <timezoneruleversionnumber>0</timezoneruleversionnumber>
+</bot>

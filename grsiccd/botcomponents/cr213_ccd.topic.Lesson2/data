@@ -1,0 +1,68 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    displayName: Lesson 2 - A simple topic with a condition and variable
+    triggerQueries:
+      - Find my nearest store
+      - Check store location
+      - Find a store
+      - Find me your nearest location
+      - Store near me
+
+  actions:
+    - kind: SendMessage
+      id: qvduia
+      message: I'd be glad to help find a store near you.
+
+    - kind: Question
+      id: LbWwpD
+      alwaysPrompt: true
+      variable: init:Topic.StoreLocation
+      prompt: Which location are you interested in?
+      entity:
+        kind: EmbeddedEntity
+        definition:
+          kind: ClosedListEntity
+          smartMatchingEnabled: true
+          items:
+            - id: dFrf6y
+              displayName: Maryland
+
+            - id: XIGBwG
+              displayName: Texas
+
+    - kind: ConditionGroup
+      id: HE6JRU
+      conditions:
+        - id: 6G9Hhn
+          condition: =Topic.StoreLocation = 'cr213_ccd.topic.Lesson2.main.LbWwpD'.dFrf6y
+          actions:
+            - kind: SendMessage
+              id: khIIPE
+              message: "Check out the Company Store at our Visitor Center. The address is: Bethesda Maryland."
+
+        - id: dqf7pu
+          condition: =Topic.StoreLocation = 'cr213_ccd.topic.Lesson2.main.LbWwpD'.XIGBwG
+          actions:
+            - kind: SendMessage
+              id: X7eulp
+              message: "Our {Topic.StoreLocation} store is located in the U District in the University Village. The address is: 1234 E. University Village St., Texas, 34567."
+
+        - id: 1QMrFE
+          condition: =Topic.StoreLocation = 'cr213_ccd.topic.Lesson2.main.LbWwpD'.dFrf6y
+          actions:
+            - kind: SendMessage
+              id: jtQo0O
+              message: "Our {Topic.StoreLocation} is located in downtown bethesda. The address is: 1234 Bethesda."
+
+        - id: conditionItem_wFEBBQ
+          condition: =Topic.StoreLocation = 'cr213_ccd.topic.Lesson2.main.LbWwpD'.XIGBwG
+
+        - id: conditionItem_fWtliN
+          condition: =Topic.StoreLocation = 'cr213_ccd.topic.Lesson2.main.LbWwpD'.XIGBwG
+
+    - kind: BeginDialog
+      id: mJXqqY
+      dialog: cr213_ccd.topic.EndofConversation

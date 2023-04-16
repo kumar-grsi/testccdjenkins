@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_ccd_coffeeshop" />
+  <EntityRelationship Name="business_unit_ccd_product" />
+  <EntityRelationship Name="ccd_ccd_coffeeshop_Landlord_contact" />
+  <EntityRelationship Name="lk_ccd_coffeeshop_createdby" />
+  <EntityRelationship Name="lk_ccd_coffeeshop_modifiedby" />
+  <EntityRelationship Name="lk_ccd_product_createdby" />
+  <EntityRelationship Name="lk_ccd_product_modifiedby" />
+  <EntityRelationship Name="owner_ccd_coffeeshop" />
+  <EntityRelationship Name="owner_ccd_product" />
+  <EntityRelationship Name="team_ccd_coffeeshop" />
+  <EntityRelationship Name="team_ccd_product" />
+  <EntityRelationship Name="TransactionCurrency_ccd_Product" />
+  <EntityRelationship Name="user_ccd_coffeeshop" />
+  <EntityRelationship Name="user_ccd_product" />
+</EntityRelationships>

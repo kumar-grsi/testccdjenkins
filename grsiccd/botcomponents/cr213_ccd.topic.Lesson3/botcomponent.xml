@@ -1,0 +1,10 @@
+<botcomponent schemaname="cr213_ccd.topic.Lesson3">
+  <componenttype>9</componenttype>
+  <iscustomizable>0</iscustomizable>
+  <name>Lesson 3 - A topic with a condition, variables and a pre-built entity</name>
+  <parentbotid>
+    <schemaname>cr213_ccd</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>ccd_ccd_d4c33</Name>
+  <AppVersion>2022-12-15T23:05:42Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.22114.18.0</CreatedByClientVersion>
+  <MinClientVersion>3.22114.18.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22114.18","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false","sienaVersion":"20221215T142201Z-3.22114.18.0"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>ccd</DisplayName>
+  <Description></Description>
+  <CommitMessage></CommitMessage>
+  <Publisher></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"14fa8656-a78e-485c-b5ad-232c67de29e2":{"id":"/providers/microsoft.powerapps/apis/shared_office365","displayName":"Office 365 Outlook","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1611/1.0.1611.3104/office365/icon.png","dataSources":["Office365Outlook"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"5d7eab3a-03c0-4364-a58a-f01daef23b9e":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png","dataSources":["PowerApp-&gt;Sendanemail(V2)"],"dependencies":["aea791a6-70ab-4ca9-8a89-621989cccdba"],"dependents":[],"parameterHints":{"workflowName":{"value":"8daecc53-bfba-4049-8ae5-ae6fb1faa94e"},"workflowEntityId":{"value":"e17387e9-337b-ed11-81ad-00224825b523"},"aea791a6-70ab-4ca9-8a89-621989cccdba":{"value":"shared_office365"}},"parameterHintsV2":{"workflowName":{"value":"8daecc53-bfba-4049-8ae5-ae6fb1faa94e"},"workflowEntityId":{"value":"e17387e9-337b-ed11-81ad-00224825b523"},"shared_office365":{"value":"aea791a6-70ab-4ca9-8a89-621989cccdba"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"aea791a6-70ab-4ca9-8a89-621989cccdba":{"id":"/providers/microsoft.powerapps/apis/shared_office365","displayName":"Office 365 Outlook","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1611/1.0.1611.3104/office365/icon.png","dataSources":[],"dependencies":[],"dependents":["5d7eab3a-03c0-4364-a58a-f01daef23b9e"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"}}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"Products":{"entitySetName":"ccd_products","logicalName":"ccd_product"},"Contacts":{"entitySetName":"contacts","logicalName":"contact"},"Coffee Shops":{"entitySetName":"ccd_coffeeshops","logicalName":"ccd_coffeeshop"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"componenttype":1,"logicalname":"ccd_product"},{"componenttype":1,"logicalname":"contact"},{"componenttype":1,"logicalname":"ccd_coffeeshop"}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/ccd_ccd_d4c33_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/ccd_ccd_d4c33_DocumentUri.msapp</DocumentUri>
+</CanvasApp>
